@@ -1,0 +1,37 @@
+body {
+    font-family: "宋体", sans-serif;
+    background-color: #222; /* 深灰色背景 */
+    color: #fff; /* 白色字体 */
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    background-color: #333; /* 深灰色背景，与主体区分 */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+  }
+  
+  .section h2 {
+    color: #f00; /* 红色标题，与背景形成互补 */
+    margin-bottom: 0.5rem;
+  }
+  
+  .section p {
+    line-height: 1.5;
+  }
+  
+  /* 过渡效果 */
+  .section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
